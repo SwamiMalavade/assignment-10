@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { CompFailureDirective } from './comp-failure.directive';
 import { CompSuccessDirective } from './comp-success.directive';
+import { CustomStyleDirective } from './custom-style.directive';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ import { CompSuccessDirective } from './comp-success.directive';
     RouterOutlet,
     CompFailureDirective,
     CompSuccessDirective,
+    CustomStyleDirective
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
